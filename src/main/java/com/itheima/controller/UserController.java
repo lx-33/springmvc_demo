@@ -32,5 +32,4 @@ public class UserController {
         System.out.println("login ...");
         return "{'info':'springmvc'}";
     }
-
 }
