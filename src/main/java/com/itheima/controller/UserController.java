@@ -25,11 +25,21 @@ public class UserController {
         return "{'info':'springmvc'}";
     }
 
+
     //查询
     @RequestMapping("/search")
     @ResponseBody
     public String search(String username){
         System.out.println("success");
+        return "{'info':'springmvc'}";
+    }
+
+
+    //登录
+    @RequestMapping("/login")
+    @ResponseBody
+    public String login(){
+        System.out.println("login ...");
         return "{'info':'springmvc'}";
     }
 
