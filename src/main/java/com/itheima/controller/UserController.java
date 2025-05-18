@@ -24,4 +24,13 @@ public class UserController {
         System.out.println("user save ...");
         return "{'info':'springmvc'}";
     }
+
+    //登录
+    @RequestMapping("/login")
+    @ResponseBody
+    public String login(){
+        System.out.println("login ...");
+        return "{'info':'springmvc'}";
+    }
+
 }
